@@ -1,0 +1,46 @@
+{
+    "name": "gravity-box",
+    "version": "1.0.0",
+    "description": "gravity",
+    "main": "index.js",
+    "babel": {
+        "presets": [
+            "env",
+            "react"
+        ]
+    },
+    "quokka": {
+        "babel": "true",
+        "plugins": [
+            "jsdom-quokka-plugin"
+        ]
+    },
+    "scripts": {
+        "start": "parcel ./index.html --port=2345 --open",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/n/a.git"
+    },
+    "keywords": [
+        "gravity"
+    ],
+    "author": "Andrew Cline",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/n/a/issues"
+    },
+    "homepage": "https://github.com/n/a#readme",
+    "dependencies": {
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "jsdom-quokka-plugin": "^1.0.13",
+        "parcel": "^1.9.7"
+    }
+}
